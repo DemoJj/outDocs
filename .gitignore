@@ -1,5 +1,6 @@
 *
 !/test/
+!/test/*.js
 !.gitignore
 !.babelrc
 !plugins.js
