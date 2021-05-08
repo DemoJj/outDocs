@@ -1,9 +1,9 @@
 *
+!/test/
 !.gitignore
 !.babelrc
 !plugins.js
 !rollup.config.js
 !readme.temp.md
 !package.json
-!/test/*
 !README.md
