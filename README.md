@@ -74,12 +74,20 @@ function square(n) {
 >```
 # 效果
 a. 方案1(babel)默认生成目录：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508182419476.png)
+
 b. 方案2(rollup)默认生成目录：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2021050818232849.png)
+
 c.配置生成目录：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508181638396.png)
-d.输出文档显示内容
+
+d.输出文档显示内容:
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210508182548181.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0RlbW9KeA==,size_16,color_FFFFFF,t_70)
+
 源码：
 [【点此进入】](https://github.com/DemoJj/outDocs)
