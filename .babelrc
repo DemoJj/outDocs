@@ -1,0 +1,7 @@
+{
+    "plugins": [["./plugins.js", {
+      "outDirName": "demoRme",
+      "gather": "common" // 集合所有文档，并设定common为文件名
+    }] ]
+    // "plugins": ["./plugins.js"]
+  }
