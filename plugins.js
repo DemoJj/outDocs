@@ -100,7 +100,8 @@ const visitor = {
         let fileName = ''
         let opts = {}
         if(!state.opts.generatorOpts){ // 直接执行label
-            fileName = state.opts.filename.split('.')[0]
+            fileName = state.opts.sourceMapTarget.split('.')[0]
+            opts = state.opts.plugins.find(p => p[0].key === _babelName)[1] || {}
         } else {
             fileName = state.opts.generatorOpts.sourceFileName.split('.')[0]
             opts = state.opts.plugins.find(p => p.key === _babelName).options
