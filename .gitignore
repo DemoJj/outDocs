@@ -5,5 +5,5 @@
 !rollup.config.js
 !readme.temp.md
 !package.json
-!/test/
+!/test/*
 !README.md
